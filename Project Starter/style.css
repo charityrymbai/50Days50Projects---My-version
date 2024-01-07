@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Raleway:wght@500&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
