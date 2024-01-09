@@ -13,17 +13,3 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
-.container {
-}
-
-.progress-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: blue;
-  width: 350px;
-}
-
-.circle {
-}
