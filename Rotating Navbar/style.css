@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgray;
+  color: brown;
+  font-family: Lato, sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  padding: 50px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.circle button {
+}
+
+.content img {
+  width: 100%;
+}
